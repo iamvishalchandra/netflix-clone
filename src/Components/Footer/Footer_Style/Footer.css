@@ -1,0 +1,99 @@
+.footer {
+  color: #999;
+  padding-top: 5vh;
+  background-color: black;
+  min-width: 100%;
+}
+
+.footer__container {
+  padding: 7vh 0 5vh 30vh;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 10%;
+}
+
+.footer__contents {
+  padding-top: 3vh;
+}
+
+.footer__contents ul {
+  font-weight: 390;
+  font-size: 13px;
+  list-style: none;
+}
+
+.footer__contents ul li {
+  display: inline-block;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 1%;
+  margin-left: 0;
+  width: 20%;
+  min-width: 100px;
+}
+
+.footer__contact {
+  font-weight: 600;
+}
+
+.footer__contact a {
+  color: #999;
+  text-decoration: none;
+}
+
+.footer__contact a:hover {
+  text-decoration: underline;
+}
+
+.footer__dropdown {
+  background-color: transparent;
+  width: 150px;
+  position: relative;
+}
+
+.footer__dropdown select {
+  border: 1px solid grey;
+  height: 50px;
+  width: 100%;
+  color: #999;
+  line-height: 1.7;
+  padding-left: 30%;
+  cursor: pointer;
+  background-color: #111;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.footer__dropdown::before {
+  content: "\1F310";
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  pointer-events: none;
+}
+
+.footer__dropdown::after {
+  content: "\25bc";
+  position: absolute;
+  left: 85%;
+  top: 60%;
+  font-size: 70%;
+  line-height: 50%;
+  pointer-events: none;
+}
+
+@media (max-width: 600px) {
+  .footer__contents ul li {
+    width: 40%;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

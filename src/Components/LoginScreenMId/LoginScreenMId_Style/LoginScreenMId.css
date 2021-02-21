@@ -1,0 +1,190 @@
+.LoginScreenMId {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 320px;
+  border-top: 8px solid #222;
+  background-color: black;
+  padding-top: 10%;
+  min-width: 100%;
+}
+
+.LoginScreenMId__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 8px solid #222;
+  background: 0 0;
+}
+
+.LoginScreenMId__Text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 7% 8% 10% 7%;
+  font-size: 1.5rem;
+}
+
+.LoginScreenMId__Text h3 {
+  margin-top: 2%;
+  font-weight: 400;
+}
+
+.LoginScreenMId__tv {
+  margin: 0 10% 5% 0;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 80%;
+}
+
+.LoginScreenMId__tv img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  border: 0;
+}
+
+.LoginScreenMId__tv video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  max-width: 73%;
+  max-height: 54%;
+  top: 20%;
+  left: 13%;
+}
+
+.LoginScreenMId__sectionOffline {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.LoginScreenMId__offline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.LoginScreenMId__offline img {
+  max-width: 100%;
+}
+
+.LoginScreenMId__downloadBar {
+  padding: 0% 0.75em;
+  position: absolute;
+  left: 18%;
+  bottom: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  min-width: 15em;
+  -webkit-box-shadow: 0 0 2em 0 #000;
+          box-shadow: 0 0 2em 0 #000;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.LoginScreenMId__downloadBar img {
+  margin: 3% 1% 3% 0;
+  height: 4.5rem;
+}
+
+.LoginScreenMId__downloadBar::after {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  width: 3em;
+  height: 3em;
+  outline: 2px solid #000;
+  outline-offset: -2px;
+  background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif") center center no-repeat;
+  content: "";
+  background-size: 100%;
+}
+
+.LoginScreenMId__downloadBarText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 7%;
+  font-weight: 200px;
+}
+
+.LoginScreenMId__downloadBarText h5 {
+  margin-top: 2%;
+  color: #0071eb;
+}
+
+.LoginScreenMId__global {
+  margin: 5% 10% 5% 0;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 80%;
+}
+
+.LoginScreenMId__global img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  border: 0;
+}
+
+.LoginScreenMId__global video {
+  position: absolute;
+  max-width: 63%;
+  max-height: 54%;
+  top: 10%;
+  left: 19%;
+}
+
+@media (max-width: 900px) {
+  .LoginScreenMId__section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .LoginScreenMId__Text {
+    margin-bottom: 0%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    font-size: 100%;
+  }
+}
+/*# sourceMappingURL=LoginScreenMId.css.map */

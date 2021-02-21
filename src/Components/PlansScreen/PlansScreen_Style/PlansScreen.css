@@ -1,0 +1,11 @@
+.plansScreen__table {
+  border: 2px solid white;
+}
+
+.plansScreen__table thead tr th {
+  border: 2px solid white;
+  padding: 7% 5%;
+  text-align: center;
+  background: #e50914;
+}
+/*# sourceMappingURL=PlansScreen.css.map */

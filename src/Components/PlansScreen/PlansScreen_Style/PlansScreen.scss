@@ -1,0 +1,90 @@
+// @mixin flex($rc) {
+//   display: flex;
+//   flex-direction: $rc;
+// }
+
+// .plansScreen {
+//   display: grid;
+//   grid-gap: 1rem;
+//   border-bottom: 2px solid white;
+//   grid-template-areas:
+//     "details details mobile basic standard premium"
+//     // "line line line line line line line"
+//     "details details mobile basic standard premium"
+//     "details details mobile basic standard premium"
+//     "details details mobile basic standard premium"
+//     "details details mobile basic standard premium"
+//     "details details mobile basic standard premium"
+//     "details details mobile basic standard premium"
+//     "details details mobile basic standard premium"
+//     "details details mobile basic standard premium";
+// }
+
+// .plansScreen__line {
+//   grid-area: line;
+// }
+
+// .plansScreen__details {
+//   grid-area: details;
+//   @include flex(column);
+//   margin-top: 20%;
+
+//   h5 {
+//     padding-top: 10%;
+//     padding-bottom: 3%;
+//     border-bottom: 2px solid gray;
+//   }
+// }
+
+// .plansScreen__mobile {
+//   grid-area: mobile;
+//   @include flex(column);
+// }
+
+// .plansScreen__mobileBox {
+//   width: 80%;
+//   height: 15%;
+//   text-align: center;
+//   background: #e50914;
+
+//   h5 {
+//     padding-top: 35%;
+//   }
+// }
+
+// .plansScreen__options {
+//   padding: 30% 0 0% 0;
+//   border-bottom: 2px solid gray;
+// }
+
+// .plansScreen__basic {
+//   grid-area: basic;
+//   @include flex(column);
+// }
+// .plansScreen__standard {
+//   grid-area: standard;
+//   @include flex(column);
+// }
+// .plansScreen__premium {
+//   grid-area: premium;
+//   @include flex(column);
+// }
+
+.plansScreen__table {
+  border: 2px solid white;
+
+  thead {
+    tr {
+      th {
+        border: 2px solid white;
+        padding: 7% 5%;
+        text-align: center;
+        // margin-left: 100%;
+        background: #e50914;
+      }
+    }
+  }
+}
+
+// .plansScreen__emptyHead {
+// }

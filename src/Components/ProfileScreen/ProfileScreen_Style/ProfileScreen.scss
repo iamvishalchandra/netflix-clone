@@ -1,0 +1,87 @@
+.profileScreen {
+  height: 100vh;
+  color: white;
+  padding-bottom: 30%;
+  background-color: black;
+  min-width: 100%;
+}
+
+.profileScreen__body {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8%;
+  max-width: 100%;
+
+  h1 {
+    font-size: 60px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+  }
+}
+
+.profileScreen__info {
+  display: flex;
+
+  img {
+    height: 100px;
+  }
+}
+
+.profileScreen__details {
+  color: white;
+  margin-left: 25px;
+  width: auto;
+  flex: 1;
+
+  h2 {
+    background-color: grey;
+    padding: 15px;
+    font-size: 15px;
+    padding-left: 20px;
+  }
+}
+
+.profileScreen__plans {
+  margin-top: 20px;
+  h3 {
+    border-bottom: 1px solid #282c2d;
+    border-bottom: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    margin-left: 25%;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 30%;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 650px) {
+  .profileScreen__plans {
+    > button {
+      width: 50%;
+    }
+  }
+}
+@media (max-width: 450px) {
+  .profileScreen__info {
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 30%;
+      padding-bottom: 3%;
+    }
+  }
+}
+
+// https://assets.nflxext.com/ffe/siteui/vlv3/399d6794-b770-4b21-992d-a3326710a170/c6ca2fdd-48b6-48cc-aa3c-983d48687bd0/IN-en-20210215-popsignuptwoweeks-perspective_alpha_website_small.jpg" srcset="https://assets.nflxext.com/ffe/siteui/vlv3/399d6794-b770-4b21-992d-a3326710a170/c6ca2fdd-48b6-48cc-aa3c-983d48687bd0/IN-en-20210215-popsignuptwoweeks-perspective_alpha_website_small.jpg 1000w, https://assets.nflxext.com/ffe/siteui/vlv3/399d6794-b770-4b21-992d-a3326710a170/c6ca2fdd-48b6-48cc-aa3c-983d48687bd0/IN-en-20210215-popsignuptwoweeks-perspective_alpha_website_medium.jpg 1500w, https://assets.nflxext.com/ffe/siteui/vlv3/399d6794-b770-4b21-992d-a3326710a170/c6ca2fdd-48b6-48cc-aa3c-983d48687bd0/IN-en-20210215-popsignuptwoweeks-perspective_alpha_website_large.jpg 1800w"

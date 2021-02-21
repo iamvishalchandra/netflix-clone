@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAwEA,AAAA,mBAAmB,CAAC;EAClB,MAAM,EAAE,eAAe;CAaxB;;AAdD,AAKM,mBALa,CAGjB,KAAK,CACH,EAAE,CACA,EAAE,CAAC;EACD,MAAM,EAAE,eAAe;EACvB,OAAO,EAAE,KAAK;EACd,UAAU,EAAE,MAAM;EAElB,UAAU,EAAE,OAAO;CACpB",
+    "sources": [
+        "PlansScreen.scss"
+    ],
+    "names": [],
+    "file": "PlansScreen.css"
+}
